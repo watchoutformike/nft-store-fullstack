@@ -13,11 +13,10 @@ export default function Header() {
       <div className={styles.left}>
         <div>
           <a
-            href="https://thirdweb.com/"
-            target="_blank"
+            href="/"
             rel="noopener noreferrer"
           >
-            <img src={`/logo.png`} alt="Thirdweb Logo" width={135} />
+            <img src={`/logo.png`} alt="Thirdweb Logo" width={80} />
           </a>
         </div>
       </div>
