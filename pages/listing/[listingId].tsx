@@ -38,7 +38,7 @@ const ListingPage: NextPage = () => {
 
   // Initialize the marketplace contract
   const marketplace = useMarketplace(
-    process.env.NEXT_PUBLIC_MARKETPLACE_CONTRACT_ADDRESS // Your marketplace contract address here
+    "0x4d9938120C093880f832ac009eaEB4e29046FeFe" // Your marketplace contract address here
   );
 
   // Hooks to detect user is on the right network and switch them if they are not
@@ -73,7 +73,7 @@ const ListingPage: NextPage = () => {
     try {
       // Ensure user is on the correct network
       if (networkMismatch) {
-        switchNetwork && switchNetwork(4);
+        switchNetwork && switchNetwork(137);
         return;
       }
 
@@ -82,7 +82,7 @@ const ListingPage: NextPage = () => {
         await marketplace?.direct.makeOffer(
           listingId, // The listingId of the listing we want to make an offer for
           1, // Quantity = 1
-          NATIVE_TOKENS[ChainId.Rinkeby].wrapped.address, // Wrapped Ether address on Rinkeby
+          NATIVE_TOKENS[ChainId.Polygon].wrapped.address, // Wrapped Ether address on Rinkeby
           bidAmount // The offer amount the user entered
         );
       }
@@ -107,7 +107,7 @@ const ListingPage: NextPage = () => {
     try {
       // Ensure user is on the correct network
       if (networkMismatch) {
-        switchNetwork && switchNetwork(4);
+        switchNetwork && switchNetwork(137);
         return;
       }
 

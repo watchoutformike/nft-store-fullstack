@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
   // Connect your marketplace smart contract here (replace this address)
   const marketplace = useMarketplace(
-    process.env.NEXT_PUBLIC_MARKETPLACE_CONTRACT_ADDRESS // Your marketplace contract address here
+    "0x4d9938120C093880f832ac009eaEB4e29046FeFe" // Your marketplace contract address here
   );
 
   const { data: listings, isLoading: loadingListings } =
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         {/* Top Section */}
 
-        <h2 className={styles.h2}>introducing bu1dl-store</h2>
+        <h2 className={styles.h2}>Pizza Market</h2>
 
         <hr className={styles.divider} />
 
