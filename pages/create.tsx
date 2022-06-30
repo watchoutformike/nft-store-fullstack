@@ -176,6 +176,7 @@ const Create: NextPage = () => {
             List NFT
           </button>
         </div>
+       <h1 className={styles.ourCollection}>All listings expire after 7 days</h1>
       </div>
     </form>
   );
