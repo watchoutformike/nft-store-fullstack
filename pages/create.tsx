@@ -165,7 +165,7 @@ const Create: NextPage = () => {
             type="text"
             name="price"
             className={styles.textInput}
-            placeholder="Sale Price"
+            placeholder="Sale Price in Matic"
           />
 
           <button
