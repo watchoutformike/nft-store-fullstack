@@ -17,11 +17,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Pizza Market, NFT Marketplace on Polygon. Buy, sell, auction NFTs, list with any token."
+          content="Pizza Market, NFT Marketplace on Polygon, fueled by Pizza Tokens. Buy, sell, auction NFTs, list with any erc20 token."
         />
         <meta
           name="keywords"
-          content="Thirdweb, Marketplace, NFT Marketplace, NFT Auction, Pizza Market, Opensea, Polygon, WOFM, Pizza"
+          content="Thirdweb, Marketplace, NFT Marketplace, NFT Auction, Pizza Market, Opensea, Polygon, WOFM, Pizza, Pizza Market Space, Pizza Market NFT"
         />
       </Head>
       <Header />
