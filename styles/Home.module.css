@@ -101,6 +101,15 @@
   margin-left: 5%;
 }
 
+.left2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 6%;
+}
+
 .right {
   height: 100%;
   display: flex;
