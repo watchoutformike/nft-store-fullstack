@@ -135,9 +135,8 @@ const ListingPage: NextPage = () => {
           <p>
             Owned by{" "}
             <b>
-              {listing.sellerAddress?.slice(0, 6) +
-                "..." +
-                listing.sellerAddress?.slice(36, 40)}
+             <a target="_blank" className="text-blue-700" href={`https://polygonscan.com/address/${listing.sellerAddress}`}>
+             {`${listing.sellerAddress.slice(0, 4)}...${listing.sellerAddress.slice(listing.sellerAddress.length - 4)}`}</a>
             </b>
           </p>
 
