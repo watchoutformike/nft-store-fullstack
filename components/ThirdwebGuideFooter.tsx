@@ -2,7 +2,7 @@ import styles from "../../styles/Thirdweb.module.css";
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://thirdweb.com/dashboard/polygon/marketplace/0x4d9938120C093880f832ac009eaEB4e29046FeFe/listings";
+  const url = "https://thirdweb.com/polygon/0x4d9938120C093880f832ac009eaEB4e29046FeFe/listings";
   return (
     <>
       <div
